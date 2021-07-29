@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Action Soccer Manager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="games_fragment">Games fragment</string>
+    <string name="players_fragment">Players fragment</string>
+    <string name="teams_fragment">Teams fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- our requests URLs -->
+    <string name="ipaddress">https://lamp.ms.wits.ac.za/~s1439706/Soccer/</string>
+    <string name="loginUrl">https://lamp.ms.wits.ac.za/~s1439706/Soccer/login.php</string>
+    <string name="registerUrl">https://lamp.ms.wits.ac.za/~s1439706/Soccer/register.php</string>
+    <string name="getGamesUrl">https://lamp.ms.wits.ac.za/~s1439706/Soccer/getGames.php</string>
+    <string name="getPlayersUrl">https://lamp.ms.wits.ac.za/~s1439706/Soccer/getPlayers.php</string>
+    <string name="getTeamsUrl">https://lamp.ms.wits.ac.za/~s1439706/Soccer/getTeams.php</string>
+    <string name="createGameUrl">https://lamp.ms.wits.ac.za/~s1439706/Soccer/createGames.php</string>
+
+
+
+</resources>

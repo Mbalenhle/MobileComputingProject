@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GamesFragment"
+    android:background="@color/white"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:id="@+id/games_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="16dp"
+        android:divider="@color/white"
+       android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:scrollbars="none"
+        android:paddingTop="8dp"
+
+        />
+
+
+<!-- tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="108dp"-->
+
+
+    <ImageView
+        android:layout_gravity="bottom|right"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/imageCreateGame"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:clickable="true"
+        android:src="@drawable/ic_plus_24"
+        />
+
+    <!--
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_plus_24"/>
+-->
+
+</FrameLayout>
